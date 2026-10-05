@@ -1,0 +1,90 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@components/*": [
+        "./src/shared/ui/*"
+      ],
+      "@layouts/*": [
+        "./src/shared/layouts/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@hooks/*": [
+        "./src/shared/hooks/*"
+      ],
+      "@lib/*": [
+        "./src/shared/lib/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@store/*": [
+        "./src/shared/store/*"
+      ],
+      "@types/*": [
+        "./src/shared/types/*"
+      ],
+      "@utils/*": [
+        "./src/shared/utils/*"
+      ],
+      "clsx": [
+        "./src/shims/clsx.ts"
+      ],
+      "sonner": [
+        "./src/shims/sonner.tsx"
+      ],
+      "framer-motion": [
+        "./src/shims/framer-motion.tsx"
+      ],
+      "lucide-react": [
+        "./src/shims/lucide-react.tsx"
+      ],
+      "react-router-dom": [
+        "./src/shims/react-router-dom.tsx"
+      ],
+      "zustand": [
+        "./src/shims/zustand.ts"
+      ],
+      "@twa-dev/sdk": [
+        "./src/shims/twa-sdk.ts"
+      ],
+      "@sentry/react": [
+        "./src/shims/sentry-react.tsx"
+      ]
+    },
+    "noImplicitAny": false
+  },
+  "include": [
+    "src"
+  ],
+  "references": []
+}

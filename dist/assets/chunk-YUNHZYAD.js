@@ -1,0 +1,1 @@
+var s=(r,t)=>{try{console[r==="error"?"error":"log"](`[toast:${r}] ${t}`)}catch(n){}},o={success:r=>s("success",r),error:r=>s("error",r),info:r=>s("info",r),warning:r=>s("warning",r),message:r=>s("message",r)};function e(r){return null}export{o as a,e as b};

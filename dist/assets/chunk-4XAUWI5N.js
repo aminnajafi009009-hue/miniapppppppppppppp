@@ -1,0 +1,1 @@
+import{a as i}from"./chunk-TP56S23H.js";import{a as r,f as n}from"./chunk-UH34ZXCJ.js";var t={skeleton:"_e",shimmer:"W"};var s=n(i(),1);function o({width:a="100%",height:g=16,radius:d=8,className:e,style:u}){return(0,s.jsx)("span",{className:`${t.skeleton} ${e!=null?e:""}`,style:r({width:a,height:g,borderRadius:d},u)})}export{o as a};
